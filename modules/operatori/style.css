@@ -1,0 +1,24 @@
+body {
+    padding-top: 10rem;
+}
+
+@media screen and (max-width: 630px) {
+    .chart {
+        width: 100%;
+        height: 185px;
+    }
+}
+
+@media screen and (min-width: 631px) {
+    .chart {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .chart {
+        width: 100%;
+        height: 480px;
+    }
+}

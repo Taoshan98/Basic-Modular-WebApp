@@ -1,0 +1,19 @@
+/* On screens that are 992px or less, set the background color to blue */
+
+@media screen and (max-width: 630px) {
+    .logo {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 631px) {
+    .logo {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .logo {
+        width: 10%;
+    }
+}

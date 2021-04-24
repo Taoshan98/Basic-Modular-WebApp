@@ -1,0 +1,34 @@
+body{
+    padding-top: 10rem;
+    background:#FAFAFA;
+}
+
+@media screen and (max-width: 629px) {
+    .chartToHide {
+        width: 100%;
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 630px) {
+    .chartToHide {
+        width: 100%;
+        height: 185px;
+    }
+}
+
+@media screen and (min-width: 631px) {
+    .chartToHide {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .chartToHide {
+        width: 100%;
+        height: 480px;
+    }
+}
+
+
